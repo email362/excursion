@@ -1,0 +1,64 @@
+/* Universal  */
+h1, h2, h3, p {
+    text-align: center;
+}
+
+* {
+    font-family: Verdana, sans-serif;
+    color: white;
+    background-color: black;
+}
+h2, h3 {
+    font-size: 42px;
+    font-weight: 300;
+
+}
+
+section img {
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    color: aquamarine;
+    font-size: 16px;
+}
+
+/* Header */
+header h1 {
+    font-size: 50px;
+
+}
+
+header p {
+    font-size: 16px;
+
+}
+/* Main/Video */
+
+main video {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Subheading 1 */
+
+
+section h2 + p {
+    font-size: 21px;
+    color: gray;
+}
+/* Image hero */
+section:nth-child(5) {
+    margin-top: 25px;
+}
+/* Subheading 2 */
+
+
+
+/* Footer */
+
+footer p {
+    text-align: right;
+    color: gray;
+}
